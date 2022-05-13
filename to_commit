@@ -1,6 +1,8 @@
 
 - git remote add [name qqe] [https path repository] 
 
+- git add . 
+
 - git commit -m '[new name]'
 
 - git push -u [name qqe] main
