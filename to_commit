@@ -1,0 +1,6 @@
+S
+- git add .
+
+- git commit -m '[new name]'
+
+- git push -u [new name] main
