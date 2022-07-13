@@ -14,7 +14,7 @@ New repository :
     - git config --global user.email "amine.airplus@gmail.com" 
     - git config --global user.name "EAmine0"
 
-- git push -u origin master (or) git push -u origin master
+- git push -u origin master (or) git push -u origin main
 
 Mais s'il y a un pb alors suivre :
 
