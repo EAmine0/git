@@ -43,7 +43,7 @@ If you're using Windows:
   
   - git commit - m "new message wanted"
   
-  - git push
+  - git push origin master
   
   
   
