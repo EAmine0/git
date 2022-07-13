@@ -1,8 +1,55 @@
 
-- git remote add [name qqe] [https path repository] 
+New repository : 
+(aller dans le dossier)
 
-- git add . 
+- git init
 
-- git commit -m '[new name]'
+- git remote add origin https://github.com/EAmine0/Amazon-clone.git
 
-- git push -u [name qqe] main
+- git add .
+
+- git commit -m "message wanted"
+
+(possible que git demande à te connaître)
+    - git config --global user.email "amine.airplus@gmail.com" 
+    - git config --global user.name "EAmine0"
+
+- git push -u origin master (or) git push -u origin master
+
+Mais s'il y a un pb alors suivre :
+
+If you're using macOS, just simply follow these steps:
+  Go to this link: https://github.com/settings/tokens (Profile -> settings -> developers setting -> personal access tokens). (don't go to repository setting; it's your profile setting)
+  Generate a new token and copy-paste it somewhere safely.
+  Now search for an app in your Mac, named Keychain Access.
+  Search for github.com (if there are multiple GitHub logins then choose Kind: Internet password), double-click it.
+  Click on show password, then enter your Mac's password and hit Enter.
+  Password should be visible by now. Now, just paste the token you generated in step 2 and click Save changes.
+  And that's it. Enjoy!
+  
+If you're using Windows:
+  Follow steps 1 and 2 as above.
+  Search for an application in your Windows OS, named Credential Manager → then Windows Credentials.
+  Search for github.com and edit the password with the token you have generated on GitHub. Now enjoy!
+  
+  
+  
+  
+  
+  Existing repository :
+  (git status pour voir s'il y a quelque chose de modifier ou pas. Si rouge donc y a eu modification sinon vert aucune modification faite)
+  
+  - git add .
+  
+  - git commit - m "new message wanted"
+  
+  - git push
+  
+  
+  
+  
+  
+  
+  
+  
+  
